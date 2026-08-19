@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('https://ulprivate.neocities.org/icomoon.eot');
-  src:  url('https://ulprivate.neocities.org/icomoon.eot#iefix') format('embedded-opentype'),
-    url('https://ulprivate.neocities.org/icomoon.ttf') format('truetype'),
-    url('https://ulprivate.neocities.org/icomoon.woff') format('woff'),
-    url('https://ulprivate.neocities.org/icomoon.svg') format('svg');
+  src:  url('https://crazydrawsprojects.github.io/untold-legacy-remake/icomoon.eot');
+  src:  url('https://crazydrawsprojects.github.io/untold-legacy-remake/icomoon.eot#iefix') format('embedded-opentype'),
+    url('https://crazydrawsprojects.github.io/untold-legacy-remake/icomoon.ttf') format('truetype'),
+    url('https://crazydrawsprojects.github.io/untold-legacy-remake/icomoon.woff') format('woff'),
+    url('https://crazydrawsprojects.github.io/untold-legacy-remake/icomoon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,12 +14,12 @@
   font-family: 'GameNameFont';
   font-style: normal;
   font-weight: 400;
-  src: url('https://ulprivate.neocities.org/Balthazar-Regular.eot'); /* IE9 Compat Modes */
-  src: url('https://ulprivate.neocities.org/Balthazar-Regular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('https://ulprivate.neocities.org/Balthazar-Regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('https://ulprivate.neocities.org/Balthazar-Regular.woff') format('woff'), /* Modern Browsers */
-       url('/https://ulprivate.neocities.org/Balthazar-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('https://ulprivate.neocities.org/Balthazar-Regular.svg') format('svg'); /* Legacy iOS */
+  src: url('https://crazydrawsprojects.github.io/untold-legacy-remake/Balthazar-Regular.eot'); /* IE9 Compat Modes */
+  src: url('https://crazydrawsprojects.github.io/untold-legacy-remake/Balthazar-Regular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://crazydrawsprojects.github.io/untold-legacy-remake/Balthazar-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://crazydrawsprojects.github.io/untold-legacy-remake/Balthazar-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/https://crazydrawsprojects.github.io/untold-legacy-remake/Balthazar-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://crazydrawsprojects.github.io/untold-legacy-remake/Balthazar-Regular.svg') format('svg'); /* Legacy iOS */
 }
 
 .margin-left-gutter {
@@ -74,7 +74,7 @@ row.no-margin{
 
 html {
   /*background: rgb(147, 145, 88);*/
-  background-image:url('https://ulprivate.neocities.org/sky_bkg3.jpg');
+  background-image:url('https://crazydrawsprojects.github.io/untold-legacy-remake/sky_bkg3.jpg');
   background-attachment: fixed;
   background-size:cover;
 }
@@ -240,7 +240,7 @@ a {
   bottom: 0;
   left: 0;
   right: 0;
-  background:url('https://ulprivate.neocities.org/loading_bkg.jpg') #401a23;
+  background:url('https://crazydrawsprojects.github.io/untold-legacy-remake/loading_bkg.jpg') #401a23;
   background-size:cover;
 }
 
@@ -399,7 +399,7 @@ a {
 }
 
 #allegiences_paragraph {
-  background:url('https://ulprivate.neocities.org/page_bkg.jpg') #401a23;
+  background:url('https://crazydrawsprojects.github.io/untold-legacy-remake/page_bkg.jpg') #401a23;
 
   border-radius:25px 25px 0px 0px;
 
@@ -500,7 +500,7 @@ li {
 
 
 .cat_bkg {
-  background:url('https://ulprivate.neocities.org/page_bkg.jpg') #401a23 !important;
+  background:url('https://crazydrawsprojects.github.io/untold-legacy-remake/page_bkg.jpg') #401a23 !important;
 }
 
 /*
