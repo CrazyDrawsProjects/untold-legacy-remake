@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html data-lt-installed="true">
   <head>
-    <script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=.server_name='wwwb-app200.us.archive.org';v.server_ms=499;send_pageview({});});</script>
     <script type="text/javascript" src="/_static/js/bundle-playback.js?v=HxkREWBo" charset="utf-8"></script>
     <script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
     <script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
@@ -32,12 +31,11 @@
         <style type="text/css"></style>
   </head>
   <body onload="initGame('page_load')" style="overflow-y: scroll;">
-     
         <div id="page_loading_modal" style="display: none;">
           <img id="page_loading_logo" src="https://ulprivate.neocities.org/warriors_untold_legacy_finished_logo_new.png">
           <i id="loading_modal_spinner" class="fa-regular fa-circle fa-spin"></i>
           <p id="loading_modal_error_message">Error loading data from server.</p>
-          <p id="loading_modal_fun_message">"After the death or retirement of the deputy, the new deputy must be chosen before moonhigh."</p>
+          <p id="loading_modal_fun_message"></p>
         </div>
         <div class="row no-margin">
           <div class="col-lg-3 col-md-0">
@@ -45,7 +43,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="top-container">
               <div id="warriors_logo">
-                <img id="warriors_logo_img" src="https://ulprivate.neocities.org/warriors_untold_legacy_finished_logo_new.png" title="" style="">
+                <img id="warriors_logo_img" src="https://ulprivate.neocities.org/warriors_untold_legacy_finished_logo_new.png" title="">
               </div>
               <div id="controls">
                 <a href="/about" target="_blank"><input type="button" value="About" class="btn btn-lg btn-light"></a>
@@ -67,7 +65,7 @@
                 <p style="color:#000000; margin-bottom:0px; font-size:1rem;"><a onclick="hideAdvancedOptions()">Hide △</a></p>
               </div>
               <div id="savingDiv" style="display: block;">
-                <span id="save_spinner" style=""><i class="fa-regular fa-circle fa-spin" style="font-size:24px; color:white;"></i></span>
+                <span id="save_spinner"><i class="fa-regular fa-circle fa-spin" style="font-size:24px; color:white;"></i></span>
                 <p id="save_message" style="color:white; min-height:1em; height:1em !important; font-size:1em;"></p>
               </div>
     
@@ -112,7 +110,7 @@
               </span>
     
               <span class="editShow" style="display: none;">
-                <input onchange="updateListName()" id="list_name_input" type="text" maxlength="100" style="">
+                <input onchange="updateListName()" id="list_name_input" type="text" maxlength="100">
               </span>
             </h2>
             <div id="allegiences_paragraph">
@@ -132,7 +130,7 @@
                 </span>
                 <span class="editShow" style="display: none;">
                   <div class="form-row margin-left-gutter">
-                    <input onchange="updateClanNames()" id="clan_one_name_input" class="clan_name_input" type="text" maxlength="100" style="">
+                    <input onchange="updateClanNames()" id="clan_one_name_input" class="clan_name_input" type="text" maxlength="100">
                     <select onchange="updateClanIcons()" id="clan_one_symbol_input" class="clan_symbol_input use_icons">
                       <option value="noclan" id="clan_one_option_noclan">ß</option>
                       <option value="thunderclan" id="clan_one_option_thunderclan">ʭ</option>
@@ -186,7 +184,7 @@
                 </span>
                 <span class="editShow" style="display: none;">
                   <div class="form-row margin-left-gutter">
-                    <input onchange="updateClanNames()" id="clan_two_name_input" class="clan_name_input" type="text" maxlength="100" style="">
+                    <input onchange="updateClanNames()" id="clan_two_name_input" class="clan_name_input" type="text" maxlength="100">
                     <select onchange="updateClanIcons()" id="clan_two_symbol_input" class="clan_symbol_input use_icons">
                       <option value="noclan" id="clan_two_option_noclan">ß</option>
                       <option value="thunderclan" id="clan_two_option_thunderclan">ʭ</option>
@@ -240,7 +238,7 @@
                 </span>
                 <span class="editShow" style="display: none;">
                   <div class="form-row margin-left-gutter">
-                    <input onchange="updateClanNames()" id="clan_three_name_input" class="clan_name_input" type="text" maxlength="100" style="">
+                    <input onchange="updateClanNames()" id="clan_three_name_input" class="clan_name_input" type="text" maxlength="100">
                     <select onchange="updateClanIcons()" id="clan_three_symbol_input" class="clan_symbol_input use_icons">
                       <option value="noclan" id="clan_three_option_noclan">ß</option>
                       <option value="thunderclan" id="clan_three_option_thunderclan">ʭ</option>
@@ -294,7 +292,7 @@
                 </span>
                 <span class="editShow" style="display: none;">
                   <div class="form-row margin-left-gutter">
-                    <input onchange="updateClanNames()" id="clan_four_name_input" class="clan_name_input" type="text" maxlength="100" style="">
+                    <input onchange="updateClanNames()" id="clan_four_name_input" class="clan_name_input" type="text" maxlength="100">
                     <select onchange="updateClanIcons()" id="clan_four_symbol_input" class="clan_symbol_input use_icons">
                       <option value="noclan" id="clan_four_option_noclan">ß</option>
                       <option value="thunderclan" id="clan_four_option_thunderclan">ʭ</option>
@@ -348,7 +346,7 @@
                 </span>
                 <span class="editShow" style="display: none;">
                   <div class="form-row margin-left-gutter">
-                    <input onchange="updateClanNames()" id="clan_five_name_input" class="clan_name_input" type="text" maxlength="100" style="">
+                    <input onchange="updateClanNames()" id="clan_five_name_input" class="clan_name_input" type="text" maxlength="100" >
                     <select onchange="updateClanIcons()" id="clan_five_symbol_input" class="clan_symbol_input use_icons">
                       <option value="noclan" id="clan_five_option_noclan">ß</option>
                       <option value="thunderclan" id="clan_five_option_thunderclan">ʭ</option>
