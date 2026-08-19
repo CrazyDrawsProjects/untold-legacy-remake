@@ -1,0 +1,525 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://ulprivate.neocities.org/icomoon.eot');
+  src:  url('https://ulprivate.neocities.org/icomoon.eot#iefix') format('embedded-opentype'),
+    url('https://ulprivate.neocities.org/icomoon.ttf') format('truetype'),
+    url('https://ulprivate.neocities.org/icomoon.woff') format('woff'),
+    url('https://ulprivate.neocities.org/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* balthazar-regular - latin */
+@font-face {
+  font-family: 'GameNameFont';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://ulprivate.neocities.org/Balthazar-Regular.eot'); /* IE9 Compat Modes */
+  src: url('https://ulprivate.neocities.org/Balthazar-Regular.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://ulprivate.neocities.org/Balthazar-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('https://ulprivate.neocities.org/Balthazar-Regular.woff') format('woff'), /* Modern Browsers */
+       url('/https://ulprivate.neocities.org/Balthazar-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('https://ulprivate.neocities.org/Balthazar-Regular.svg') format('svg'); /* Legacy iOS */
+}
+
+.margin-left-gutter {
+  margin-left:220px !important;
+}
+
+.use_icons {
+  font-family: 'icomoon' !important;
+}
+
+row.no-margin{
+  margin:0 ! important;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-noclan_icon:before {
+  content: "\df";
+}
+.icon-skyclan_icon:before {
+  content: "\132";
+}
+.icon-riverclan_icon:before {
+  content: "\255";
+}
+.icon-shadowclan_icon:before {
+  content: "\1a5";
+}
+.icon-starclan_icon:before {
+  content: "\39e";
+}
+.icon-thunderclan_icon:before {
+  content: "\2ad";
+}
+.icon-windclan_icon:before {
+  content: "\2e9";
+}
+
+
+html {
+  /*background: rgb(147, 145, 88);*/
+  background-image:url('https://ulprivate.neocities.org/sky_bkg3.jpg');
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+body {
+  font-family: 'EB Garamond' !important;
+  font-size: 1.25em;
+  margin-left:25px;
+
+  background: none !important;
+
+  overflow-x:hidden;
+
+  overflow-y:scroll;
+}
+
+ul, li, ol {
+  list-style: none;
+}
+
+.clan_name_input {
+  display:block;
+  margin-bottom:10px;
+  font-size:1.5em;
+}
+
+.rank_title{
+  text-decoration: underline;
+  font-size: 1.5em;
+
+  font-family: 'Almendra SC' !important;
+
+  margin-left:-80px !important;
+
+  width:160px;
+}
+
+.clan_symbol_input {
+  font-size:2.4em;
+  display:inline-block;
+
+  height:100%;
+}
+
+a {
+  cursor: pointer; cursor: hand;
+}
+
+.cat_name a {
+  color: inherit !important;
+}
+
+.cat_name a:hover {
+  color: inherit !important;
+}
+
+.cat_name a:visited {
+  color: inherit !important;
+}
+
+.dead_cat {
+  color: #cecece !important;
+  text-decoration: none !important;
+}
+
+.color_light_orange {
+  color: #feb36d;
+}
+
+.color_orange {
+  color: #ff9f11;
+}
+
+.color_dark_orange {
+  color: #c47500;
+}
+
+.color_white {
+  color: #e4e4e4;
+  text-decoration-color: #888 !important;
+}
+
+.color_white a .name_only {
+  color:#888;
+  text-decoration-color: #888 !important;
+  text-shadow:none;
+}
+
+.color_white a {
+  text-shadow:
+   -1px -1px 0 #888,
+    1px -1px 0 #888,
+    -1px 1px 0 #888,
+     1px 1px 0 #888;
+
+    text-decoration-color: #888 !important;
+}
+
+.no-padding {
+  padding:0;
+}
+
+.color_gray {
+  color: #8d8d8d;
+}
+
+.color_dark_gray {
+  color: #5b5b5b;
+}
+
+.color_golden_brown {
+  color: #a08216;
+}
+
+.color_light_brown {
+  color: #b99168;
+}
+
+.color_brown {
+  color: #9b6937;
+}
+
+.color_dark_brown {
+  color: #6a4826;
+}
+
+.color_cream {
+  color: #c5c17a;
+}
+
+.color_dark_cream {
+  color: #b4ab03;
+}
+
+.color_golden {
+  color: #debb31;
+}
+
+.color_black {
+  color: #151515;
+}
+
+.color_reddish_brown {
+  color: #b95428;
+}
+
+.color_red {
+  color: #bf2922;
+}
+
+.color_blue {
+  color: #6d91e2;
+}
+
+.color_pink {
+  color: #e18a9b;
+}
+
+#page_loading_modal {
+  position:fixed;
+  z-index:300;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:url('https://ulprivate.neocities.org/loading_bkg.jpg') #401a23;
+  background-size:cover;
+}
+
+#page_loading_logo {
+  position:fixed;
+  top:50%;
+  left:50%;
+  margin-left:-300px;
+  margin-top:-350px;
+  width:600px;
+  max-width:600px;
+}
+
+#loading_modal_spinner {
+  font-size:96px;
+  position:fixed;
+  top:50%;
+  left:50%;
+  margin-left:-48px;
+  margin-top:64px;
+  color:rgb(214, 197, 209);
+}
+
+#loading_modal_error_message {
+  display:none;
+  color:red;
+  text-align:center;
+  width: 100%;
+  top: 50%;
+  position:absolute;
+  font-size:24px;
+  font-weight:bold;
+  margin-top:84px;
+}
+
+#loading_modal_fun_message {
+  font-style:italic;
+  color:white;
+  text-align:center;
+  width: 100%;
+  top: 50%;
+  margin-top:0px;
+  position:absolute;
+  font-size:1.5em;
+  font-family:'EB Garamond' !important;
+}
+
+#warriors_logo {
+  margin-left:auto;
+  margin-right:auto;
+
+  width:75%;
+
+  text-align:center;
+
+  margin-top:20px;
+}
+
+.edit-btn {
+  margin-bottom:5px;
+}
+
+#warriors_logo_img {
+  width: inherit !important;
+  height: inherit !important;
+}
+
+#savingDiv {
+  text-align:center;
+  display:none;
+}
+
+#read_only_message {
+  margin-top:20px;
+  display:none;
+  color:#d20049;
+  font-size:1.25em;
+
+  text-align:center;
+
+  background:#e2c3d9;
+  border-radius:25px;
+  padding:20px;
+  width:100%;
+}
+
+#advanced_options {
+  margin-top:20px;
+  color:#d20049;
+  font-size:1.25em;
+  display:none;
+  text-align:center;
+
+  background:#e2c3d9;
+  border-radius:25px;
+  padding:20px;
+  width:100%;
+}
+
+#importantLinks {
+  display:none;
+
+  text-align:center;
+
+  background:#e2c3d9;
+  border-radius:25px;
+  padding:20px;
+  width:100%;
+}
+
+
+#controls {
+  margin-left:auto;
+  margin-right:auto;
+  position:relative;
+  margin-top:30px;
+  margin-bottom:20px;
+
+  text-align:center;
+}
+
+#controls_center {
+  margin-left:220px;
+  margin-bottom:20px;
+}
+
+.tooltip-inner {
+    max-width: 150px;
+    /* If max-width does not work, try using width instead */
+    width: 150px;
+}
+
+.tooltip-inner img {
+  max-width:130px;
+  width:130px;
+
+  border-style:none;
+
+  margin:3px;
+}
+
+.cat_name {
+  text-transform: uppercase;
+  font-weight:bold;
+  font-family: 'GameNameFont' !important;
+  font-size:1.2em;
+  margin-bottom:2px;
+}
+
+.cat_name_and_symbol:hover {
+  text-decoration: underline;
+}
+
+.apprentice_plate {
+  margin-top:-10px;
+}
+
+#allegiences_paragraph {
+  background:url('https://ulprivate.neocities.org/page_bkg.jpg') #401a23;
+
+  border-radius:25px 25px 0px 0px;
+
+  padding:20px;
+}
+
+#allegiences_paragraph ul, ol {
+  margin-left: 70px;
+  margin-top:-30px;
+}
+
+#details_paragraph ul, ol {
+  margin-left: 70px;
+  margin-top:-30px;
+}
+
+.clan_title {
+  font-family: 'EB Garamond' !important;
+  text-transform: uppercase;
+  font-size: 1.75em;
+  font-weight:bold;
+
+  margin-left:220px;
+  margin-bottom:15px;
+}
+
+.allegiences_title {
+  font-family: 'Almendra SC' !important;
+  font-size: 2.5em;
+  font-weight:normal;
+  text-decoration: underline;
+
+  margin-left:220px;
+
+  margin-top:10px;
+  margin-bottom:40px;
+}
+
+li {
+  margin-bottom:2px;
+}
+
+.recently_visited {
+  min-height:10px !important;
+
+  text-align:right !important;
+
+  margin-right:20px;
+
+  padding:15px;
+}
+
+
+@media (max-width: 992px)
+{
+  .recently_visited {
+    text-align:center !important;
+  }
+}
+
+.recently_visited_list_item {
+  margin-bottom:8px;
+
+}
+
+.recently_visited_title {
+  font-size:1.5em;
+  color:#000;
+}
+
+.recently_visited_list_item a {
+  color: #8817ad !important;
+}
+
+#list_name_input {
+  width:100%;
+  text-align:center;
+
+  margin-top:20px;
+}
+
+.list_name {
+  color: #000;
+  margin-top:20px;
+  margin-bottom:0 !important;
+  font-family: 'EB Garamond';
+
+  padding:5px;
+
+  width: 100%;
+  text-align:center;
+}
+
+.middle_column {
+
+}
+
+
+
+.cat_bkg {
+  background:url('https://ulprivate.neocities.org/page_bkg.jpg') #401a23 !important;
+}
+
+/*
+     FILE ARCHIVED ON 20:46:18 Sep 04, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:42:36 Dec 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.517
+  exclusion.robots: 0.027
+  exclusion.robots.policy: 0.016
+  esindex: 0.011
+  cdx.remote: 85.812
+  LoadShardBlock: 162.31 (3)
+  PetaboxLoader3.datanode: 170.207 (5)
+  PetaboxLoader3.resolve: 465.447 (3)
+  load_resource: 480.727 (2)
+*/

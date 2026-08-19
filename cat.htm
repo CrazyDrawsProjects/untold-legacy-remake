@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html class="cat_bkg">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135452145-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-135452145-1');
+    </script>
+
+    <title>Cat | Untold Legacy | A Paw in Each World</title>
+    <link rel='icon' href='./img/favicon.ico' type='image/x-icon'/ >
+    <script src="cat.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://fonts.googleapis.com/css?family=Almendra SC' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet'>
+    <link rel="stylesheet" href="bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="seedrandom.min.js"></script>
+  </head>
+  <body onload="initJSON()">
+    <div id="cat_photo" style="float:left; position:absolute; top:15px; left:15px; width:160px; height:160px;">
+      <img id="cat_photo_img" src="" style="width: inherit !important; height: inherit !important;">
+    </div>
+    <div id="cat_details_paragraph">
+      <h1 class="allegiences_title" id="cat_details_name">Null</h1>
+      <div id="details_paragraph">
+        <h3 class="clan_title">Cat Details</h3>
+        <br>
+        <ul>
+          <li class="rank_title"></li>
+          <ul id="cat_details_name_list">
+            <li class="allegience_row"><i>Null.</i></li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <li class="rank_title">Description</li>
+          <ul id="cat_details_description_list">
+            <li class="allegience_row"><i>None.</i></li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <li class="rank_title">Allegience</li>
+          <ul id="cat_details_allegience_list">
+            <li class="allegience_row"><i>None.</i></li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <li class="rank_title">Rank</li>
+          <ul id="cat_details_rank_list">
+            <li class="allegience_row"><i>None.</i></li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <li class="rank_title">Age</li>
+          <ul id="cat_details_age_list">
+            <li class="allegience_row"><i>0 moons</i></li>
+          </ul>
+        </ul>
+        <br>
+        <ul class="mates">
+          <li class="rank_title">Known Mates</li>
+          <ul id="cat_details_mates_list">
+            <li class="allegience_row"><i>Unknown.</i></li>
+          </ul>
+        </ul>
+        <br class="mates">
+        <ul>
+          <li class="rank_title">Mother</li>
+          <ul id="cat_details_mother_list">
+            <li class="allegience_row"><i>Unknown.</i></li>
+          </ul>
+        </ul>
+        <br>
+        <ul>
+          <li class="rank_title">Father</li>
+          <ul id="cat_details_father_list">
+            <li class="allegience_row"><i>Unknown.</i></li>
+          </ul>
+        </ul>
+        <br>
+        <ul class="children">
+          <li class="rank_title">Children</li>
+          <ul id="cat_details_children_list">
+            <li class="allegience_row"><i>None.</i></li>
+          </ul>
+        </ul>
+        <br class="children">
+        <ul class="mentor">
+          <li class="rank_title">Mentor</li>
+          <ul id="cat_details_mentor_list">
+            <li class="allegience_row"><i>Unknown.</i></li>
+          </ul>
+        </ul>
+        <br class="mentor">
+        <ul class="apprentice">
+          <li class="rank_title">Apprentice</li>
+          <ul id="cat_details_apprentice_list">
+            <li class="allegience_row"><i>None.</i></li>
+          </ul>
+        </ul>
+        <br class="apprentice">
+        <ul class="siblings">
+          <li class="rank_title">Siblings</li>
+          <ul id="cat_details_siblings_list">
+            <li class="allegience_row"><i>None.</i></li>
+          </ul>
+        </ul>
+        <br class="siblings">
+      </div>
+      <div id="controls_center">
+        <input type="button" value="Close Cat Details" class="btn btn-lg btn-secondary" onclick="window.close()"></input>
+      </div>
+    </div>
+  </body>
+</html>
